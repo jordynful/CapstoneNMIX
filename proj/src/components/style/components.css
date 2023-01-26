@@ -42,8 +42,8 @@ line-height: 0%;
 }
 
 .logo2 {
-    /* position: absolute;
-left: 41.61%;
+    /* position: absolute; */
+/* left: 41.61%;
 right: 41.61%;
 top: 36.84%;
 bottom: 36.84%;
@@ -51,8 +51,8 @@ bottom: 36.84%;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
-line-height: 15px; */
+font-size: 12px; */
+line-height: 50px;
 }
 
 .bars {
