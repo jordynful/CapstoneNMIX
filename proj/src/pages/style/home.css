@@ -1,0 +1,11 @@
+.homeMain {
+display: flex;
+flex-direction: row;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+}
