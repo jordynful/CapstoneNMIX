@@ -5,7 +5,11 @@ function Header() {
     return (
       <div className = "outside">
   <div className = "navigation">
+
+  <Link to ='/' className = 'BarsLink'>
   <FaBars className = "bars"/>
+  </Link>
+
   <Link to='/media' className='navLink'>Media</Link>
   <Link to='/music' className='navLink'>Music</Link>
   <Link to ='/' className = 'profileLink'>

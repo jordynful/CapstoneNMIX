@@ -1,26 +1,27 @@
 
 import './style/home.css';
-
+import FirstCard from '../components/FirstCard';
+import MidCard from '../components/MidCard';
+import SmallCard from '../components/SmallCard';
 function Home() {
   return (
     <>
 
-    <div>
+    <div className = "homeMain">
         {/* main div -- flex direction row*/}
-        <div> 
+       
             {/* component */}
-        </div>
-        <div></div>
-        <div> 
+            <FirstCard/>
+       
+            <MidCard/>
+        
+        <div className = "column"> 
             {/* flex direction column */}
-            <div></div>
-            <div></div>
+           <SmallCard/>
+           <SmallCard/>
 
             
         </div>
-
-Homepage
-
     </div>
     </>
   );
