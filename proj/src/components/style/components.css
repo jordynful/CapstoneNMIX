@@ -1,20 +1,22 @@
 .outside {
-    margin: 0;
+    margin: auto;
     height:150px;
     background-color: #1E1E1E;
     color:white;
     /* position:fixed; */
     width:100%;
+    display: flex;
     
     align-items: center;
 }
 
 .navigation {
     margin: auto;
-    width:100vw;
+    /* width:100vw; */
     display:flex;
     /* position:fixed; */
     left:3.2%;
+    justify-content: space-between;
     align-items: center;
 
     
@@ -23,12 +25,13 @@
 .navLink {
     text-decoration: none;
     color:white;
-    margin:80px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 0%;
+
 }
 .logo {
     text-decoration: none;
